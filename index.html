@@ -10,59 +10,62 @@
 </head>
 
 <body>
-    <header>
-        <nav>
-            <ul>
-                <li>Gmail</li>
-                <li>Imágenes</li>
-                <li>
-                    <picture>
-                        <img src="img/icon/menu.png">
+    <header class="header">
+        <nav class="header-nav">
+            <ul class="nav-list">
+                <li class="nav-list__item">Gmail</li>
+                <li class="nav-list__item">Imágenes</li>
+                <li class="nav-list__item">
+                    <picture  class="nav-list-picture">
+                        <img src="img/icon/menu.png" class="nav-list-picture__img">
                     </picture>
                 </li>
-                <li>
-                    <picture>
-                        <img src="img/profile.png">
+                <li class="nav-list__item">
+                    <picture  class="nav-list-picture">
+                        <img src="img/profile.png" class="nav-list-picture__img">
                     </picture>
                 </li>
             </ul>
         </nav>
     </header>
-    <main>
-        <section>
-            <picture>
-                <img src="img/google_logo.png">
+    <main class="main">
+        <section class="main-logo">
+            <picture class="logo-picture">
+                <img src="img/google_logo.png" class="logo-picture__img">
             </picture>
         </section>
-        <section>
-            <input type="text">
+        <section class=main-search>
+            <picture class="search-picture">
+                <img src="img/icon/icon-search.png" class="icon search-picture__icon">
+            </picture>
+            <input type="text" class="search__bar">
         </section>
-        <section>
-            <input type="button" value="Buscar con google">
-            <input type="button" value="Me siento con suerte">
+        <section class="main-buttons">
+            <input type="button" value="Buscar con google" class="main-buttons__button">
+            <input type="button" value="Me siento con suerte" class="main-buttons__button">
         </section>
-        <section>
-            Ofrecido por Google en: <a>English</a> <a>Español (Latinoamérica)</a>
+        <section class="main-languages">
+            Ofrecido por Google en: <a href="#" class="languages main-languages__english">English</a> <a href="#" class="languages main-languages__spanish">Español (Latinoamérica)</a>
         </section>
     </main>
-    <footer>
-        <section>
-            <span>Chile</span>
+    <footer class="footer">
+        <section class="footer-bar">
+            <span class="footer-bar__country">Chile</span>
         </section>
-        <section>
-            <nav>
-                <ul>
-                    <li>Publicidad</li>
-                    <li>Negocios</li>
-                    <li>Sobre Google</li>
-                    <li>Cómo funciona la busqueda</li>
+        <section class="footer-nav">
+            <nav class="nav-more">
+                <ul class="more-list">
+                    <li class="more-list__item">Publicidad</li>
+                    <li class="more-list__item">Negocios</li>
+                    <li class="more-list__item">Sobre Google</li>
+                    <li class="more-list__item">Cómo funciona la busqueda</li>
                 </ul>
             </nav>
-            <nav>
-                <ul>
-                    <li>Privacidad</li>
-                    <li>Condiciones</li>
-                    <li>Preferencias</li>
+            <nav class="nav-privacy">
+                <ul class="privacy-list">
+                    <li class="privacy-list__item">Privacidad</li>
+                    <li class="privacy-list__item">Condiciones</li>
+                    <li class="privacy-list__item">Preferencias</li>
                 </ul>
             </nav>
         </section>
