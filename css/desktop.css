@@ -1,0 +1,36 @@
+@media (min-width: 1000px) {
+  .search__bar {
+    width: 35vw;
+  }
+  .main-buttons__button {
+    font-size: 1.4rem;
+    width: auto;
+  }
+  .footer {
+    display: block;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    text-align: initial;
+  }
+  .nav-more,
+  .nav-privacy {
+    display: inline-block;
+  }
+  .privacy-list__item,
+  .more-list__item {
+    display: inline;
+    padding-top: 0rem;
+  }
+
+  .nav-privacy {
+    float: right;
+    border-top: none;
+  }
+  .footer-nav {
+    line-height: 0;
+  }
+  .footer-bar {
+    padding-left: 2.7rem;
+  }
+}

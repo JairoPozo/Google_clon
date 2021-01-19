@@ -1,0 +1,36 @@
+.search__bar {
+  width: 75vw;
+}
+.main-buttons__button {
+  font-size: 1.6rem;
+  width: 100%;
+}
+ /*POR VERIFICAR!!*/
+.main-languages {
+ text-align: center;
+}
+
+.footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+.nav-more,
+.nav-privacy {
+  display: block;
+  height:auto;
+}
+.privacy-list__item,
+.more-list__item {
+  display: block;
+  padding-top: 0.5rem;
+}
+.nav-privacy {
+    float: none;
+    border-top: 0.1rem solid #dadce0;
+  }
+
+.footer-nav {
+    line-height:1.5rem; 
+}

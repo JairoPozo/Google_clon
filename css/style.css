@@ -67,7 +67,6 @@ html {
   border: none;
   height: 2.5rem;
   font-size: 1.6rem;
-  width: 35vw;
 }
 .search__bar:focus {
   outline: none;
@@ -79,7 +78,6 @@ html {
 .main-buttons__button {
   border: 0.1rem #f8f9fa solid;
   color: #3c4043;
-  font-size: 1.4rem;
   margin: 1.1rem 0.4rem;
   background-color: #f8f9fa;
   padding: 0.5rem 1.6rem;
@@ -95,18 +93,11 @@ html {
 .languages {
   text-decoration: none;
 }
-/*footer*/
-.footer{
-position: absolute;
-bottom: 0;
-width: 100%;
-}
 /*FOOTER COUNTRY*/
-.footer-bar {
+ .footer-bar {
   line-height: 4rem;
   background-color: #f2f2f2;
   color: rgba(0, 0, 0, 0.54);
-  padding-left: 2.7rem;
   font-size: 1.4rem;
   border-top: 0.1rem solid #dadce0;
 }
@@ -116,12 +107,8 @@ width: 100%;
   padding-right: 2.7rem;
   font-size: 1.4rem;
   border-top: 0.1rem solid #dadce0;
-}
+} 
 /*FOOTER MORE AND PRIVACY*/
-.nav-more,
-.nav-privacy {
-  display: inline-block;
-}
 .privacy-list,
 .more-list {
   list-style: none;
@@ -132,10 +119,8 @@ width: 100%;
 
 .privacy-list__item,
 .more-list__item {
-  display: inline;
   color: #70757a;
   padding-left: 2.7rem;
+
 }
-.nav-privacy {
-  float: right;
-}
+ 
