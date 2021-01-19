@@ -1,0 +1,141 @@
+html {
+  font-size: 62.5%;
+  font-family: Arial, Helvetica, sans-serif;
+}
+/*NAV*/
+.nav-list {
+  list-style: none;
+  padding: 0 3rem;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+/*NAV TEXT*/
+.nav-list__item {
+  font-size: 1.3rem;
+  display: inline;
+  padding-left: 1.5rem;
+  margin-top: 0.5rem;
+}
+.nav-list__hyperlink {
+  text-decoration: none;
+  color: rgba(0, 0, 0, 0.87);
+  text-align: center;
+  align-self: center;
+}
+/*NAV ICONS*/
+.nav-list-picture__img--profile {
+  border-radius: 2rem;
+  margin-left: 1rem;
+}
+
+.nav-list-picture__img--menu {
+  height: 1.5rem;
+  width: 1.5rem;
+}
+
+/*MAIN-LOGO*/
+.main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 15vh;
+}
+.main-logo {
+  margin-bottom: 3.5vh;
+}
+
+/*MAIN-SEARCH-BAR*/
+.search-picture {
+  padding: 1rem;
+}
+.search-picture__icon {
+  height: 1.5rem;
+  width: 1.5rem;
+  margin-top: 1.5rem;
+}
+.main-search {
+  border: 0.1rem solid #dfe1e5;
+  padding-bottom: 0.5rem;
+  padding-right: 0.5rem;
+  padding-left: 0.5rem;
+  border-radius: 2rem;
+  overflow: hidden;
+}
+.search__bar {
+  border: none;
+  height: 2.5rem;
+  font-size: 1.6rem;
+  width: 35vw;
+}
+.search__bar:focus {
+  outline: none;
+}
+/*MAIN BUTTONS*/
+.main-buttons {
+  margin-top: 2vh;
+}
+.main-buttons__button {
+  border: 0.1rem #f8f9fa solid;
+  color: #3c4043;
+  font-size: 1.4rem;
+  margin: 1.1rem 0.4rem;
+  background-color: #f8f9fa;
+  padding: 0.5rem 1.6rem;
+  text-align: center;
+}
+
+/*MAIN LANGUAGES*/
+
+.main-languages {
+  line-height: 3rem;
+  font-size: 1.3rem;
+}
+.languages {
+  text-decoration: none;
+}
+/*footer*/
+.footer{
+position: absolute;
+bottom: 0;
+width: 100%;
+}
+/*FOOTER COUNTRY*/
+.footer-bar {
+  line-height: 4rem;
+  background-color: #f2f2f2;
+  color: rgba(0, 0, 0, 0.54);
+  padding-left: 2.7rem;
+  font-size: 1.4rem;
+  border-top: 0.1rem solid #dadce0;
+}
+.footer-nav {
+  line-height: 0.5rem;
+  background-color: #f2f2f2;
+  padding-right: 2.7rem;
+  font-size: 1.4rem;
+  border-top: 0.1rem solid #dadce0;
+}
+/*FOOTER MORE AND PRIVACY*/
+.nav-more,
+.nav-privacy {
+  display: inline-block;
+}
+.privacy-list,
+.more-list {
+  list-style: none;
+  padding:0;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+}
+
+.privacy-list__item,
+.more-list__item {
+  display: inline;
+  color: #70757a;
+  padding-left: 2.7rem;
+}
+.nav-privacy {
+  float: right;
+}
